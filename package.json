@@ -1,0 +1,30 @@
+{
+  "name": "naira-converter",
+  "version": "1.0.0",
+  "description": "This is a Simple Progressive Web Application that converts from other currencies to Naira",
+  "main": "/public/js/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src/js -d public/js -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akojif/the-naira-converter.git"
+  },
+  "keywords": [
+    "currency",
+    "converter",
+    "naira"
+  ],
+  "author": "Akoji Francis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akojif/the-naira-converter/issues"
+  },
+  "homepage": "https://github.com/akojif/the-naira-converter#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1"
+  }
+}
