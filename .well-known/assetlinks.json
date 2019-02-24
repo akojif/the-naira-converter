@@ -1,1 +1,10 @@
-
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "xyz.appmaker.naokpa",
+      "sha256_cert_fingerprints": ["C1:99:39:75:9E:AF:93:F6:A5:62:45:B1:C1:18:D8:BC:11:01:61:32:EC:F9:3E:AD:7F:B0:48:64:10:62:0B:86"]
+    }
+  }
+]
